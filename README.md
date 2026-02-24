@@ -1,8 +1,8 @@
-📌 Project Overview
+📌 Project Overview:
 
 The Zepto Inventory Analysis project focuses on analyzing inventory data using SQL to gain insights into stock levels, product availability, warehouse performance, and inventory management efficiency. This project demonstrates how SQL can be used for data cleaning, querying, and extracting meaningful business insights from inventory datasets.
 
-🎯 Project Objectives
+🎯 Project Objectives:
 
 Monitor inventory stock levels
 
@@ -14,7 +14,7 @@ Track warehouse-wise inventory distribution
 
 Improve inventory decision-making using data insights
 
-🛠️ Tools & Technologies
+🛠️ Tools & Technologies:
 
 SQL (PostgreSQL / MySQL) – Data Analysis & Querying
 
@@ -22,7 +22,7 @@ Database Management System (pgAdmin / MySQL Workbench)
 
 CSV Dataset – Zepto Inventory Data
 
-📂 Dataset Description
+📂 Dataset Description:
 
 The dataset contains inventory-related details such as:
 
@@ -44,7 +44,7 @@ Reorder Level
 
 Inventory Status
 
-🧹 Data Cleaning & Preparation (SQL)
+🧹 Data Cleaning & Preparation (SQL):
 
 Key steps performed:
 
@@ -58,7 +58,7 @@ Creating calculated fields
 
 Data type conversion for numeric and date columns
 
-🔍 SQL Analysis Performed
+🔍 SQL Analysis Performed:
 
 Some important SQL queries used in this project:
 
@@ -80,7 +80,8 @@ SELECT category, SUM(stock_quantity) AS total_stock
 FROM zepto_inventory
 GROUP BY category
 ORDER BY total_stock DESC;
-📊 Key Insights
+
+📊 Key Insights:
 
 Certain categories have higher stock demand
 
@@ -90,7 +91,7 @@ Inventory distribution varies across warehouses
 
 Reorder level tracking helps prevent stockouts
 
-🚀 How to Run the Project
+🚀 How to Run the Project:
 
 Import the Zepto inventory dataset into your SQL database
 
@@ -100,7 +101,7 @@ Run SQL queries for analysis and insights
 
 Use pgAdmin or MySQL Workbench to execute queries
 
-📁 Project Structure
+📁 Project Structure:
 
 dataset/ – Inventory dataset (CSV)
 

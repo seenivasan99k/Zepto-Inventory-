@@ -1,3 +1,5 @@
+📦 Zepto Inventory Analysis (SQL Project)
+
 📌 Project Overview:
 
 The Zepto Inventory Analysis project focuses on analyzing inventory data using SQL to gain insights into stock levels, product availability, warehouse performance, and inventory management efficiency. This project demonstrates how SQL can be used for data cleaning, querying, and extracting meaningful business insights from inventory datasets.
